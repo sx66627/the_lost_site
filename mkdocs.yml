@@ -4,7 +4,7 @@ site_description: Home page team The Lost Motorcycle Club for GTA 5 RP
 
 site_author: Sebastian  Valmont (admin@chudik.pro)
 
-#repo_url: https://github.com/mkdocs/mkdocs/
+repo_url: https://github.com/sx66627/the_lost_site
 
 theme:
 #    theme_dir: 'mkdocs-windmill-dark/mkdocs_windmill_dark'
