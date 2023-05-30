@@ -1,0 +1,61 @@
+site_name: The Lost Motorcycle Club
+
+site_description: Home page team The Lost Motorcycle Club for GTA 5 RP
+
+site_author: Sebastian  Valmont (admin@chudik.pro)
+
+#repo_url: https://github.com/mkdocs/mkdocs/
+
+theme:
+#    theme_dir: 'mkdocs-windmill-dark/mkdocs_windmill_dark'
+    name: 'windmill-dark'
+    locale: 'ru'
+    custom_dir: 'overrides'
+
+#theme_dir: psinder
+
+nav:
+    - Главная: index.md
+    - С чего начать: getting-started.md
+    - О нас:
+        - Где обитали: team-guides/where.md
+        - Как развлекались: team-guides/entertaiments.md
+        - Мероприятия: team-guides/events.md
+        - Наш устав: team-guides/charter.md
+        - Должности: team-guides/positions.md
+        - Мотопробеги: team-guides/motocrosses.md
+        - Состав: team-guides/team.md
+    - Дополнительно:
+        - Радио The Lost FM: about/radio.md
+        - Ссылки: about/links.md
+
+extra_css:
+    - css/extra.css
+
+copyright: Все права защищены &copy; 2023 The Lost Motorcycle Club.<br />
+
+plugins:
+    - search
+    - redirects:
+        redirect_maps:
+            user-guide/plugins.md: dev-guide/plugins.md
+    - glightbox:
+       touchNavigation: true
+       loop: false
+       effect: zoom
+       slide_effect: slide
+       width: 100%
+       height: auto
+       zoomable: true
+       draggable: false
+       auto_caption: false
+       caption_position: bottom
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+#extra_javascript:
+#    - 'js/removeCredits.js'

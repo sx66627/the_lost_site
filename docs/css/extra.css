@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap&subset=cyrillic,cyrillic-ext,latin-ext');
+
+body {
+font-family: "Exo 2";
+font-size: 14px;
+}
+
+h1,h2,h3,h4,h5,h6 { color: #808080; }
+
+a, a:visited, a:hover, a:focus { color: #198754 !important; }
+
+span.wm-toc-text {
+    color: #FFF;
+}
+
+.wm-toc-li.wm-current, .wm-toc-li.wm-current:hover { background-color: #000 !important; }
+
+.button, .btn, .btn-sm, .btn-xs, .btn-default, #hist-fwd, #hist-back, #wm-toc-button, #wm-search-go { color: #198754 !important; }
+
+input#mkdocs-search-query.form-control { color: #198754 !important; border: 1px solid #198754 !important; }
+
+.heart {
+  animation: heart 1000ms infinite;
+}
+
+.twemoji {
+height: 24px;
+width: 24px;
+}
+
+.wm-page-content img {
+margin: 0px !important;
+background-color: transparent !important;
+}
+
+.wm-page-content a {
+color: #198754 !important;
+}
+
+.wm-page-content { max-width: 80% !important; }
